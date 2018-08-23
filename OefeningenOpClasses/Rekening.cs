@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace OefeningenOpRekeningen
 {
+    public delegate void Transactie(Rekening middel);
     public /*abstract*/ class Rekening : ISpaarmiddel
     {
         private readonly DateTime EersteCreatie = new DateTime(1900, 1, 1);
@@ -13,6 +14,9 @@ namespace OefeningenOpRekeningen
         private decimal saldoValue;
         private DateTime creatieDatumValue;
         private Klant eigenaarValue;
+        private decimal vorigSaldoValue;
+        public event Transactie rekeningUittreksel;
+        public event Transactie SaldoInHetRood;
 
         public Klant Eigenaar
         {
@@ -66,6 +70,18 @@ namespace OefeningenOpRekeningen
             }
         }
 
+        public decimal VorigSaldo
+        {
+            get
+            {
+                return vorigSaldoValue;
+            }
+            set
+            {
+                vorigSaldoValue = value;
+            }
+        }
+
         //public Rekening() : this("Geen geldig rekeningnummer", 0, DateTime.Today)
         //{
         //}
@@ -103,7 +119,30 @@ namespace OefeningenOpRekeningen
 
         public void Storten(decimal bedrag)
         {
+            VorigSaldo = Saldo;
             Saldo += bedrag;
+            if (rekeningUittreksel != null)
+            {
+                rekeningUittreksel(this);
+            }
+        }
+
+        public void Afhalen(decimal bedrag)
+        {
+            if (Saldo - bedrag < 0)
+            {
+                if(SaldoInHetRood != null)
+                    SaldoInHetRood(this);
+            }
+            else
+            {
+                VorigSaldo = Saldo;
+                Saldo -= bedrag;
+                if (rekeningUittreksel != null)
+                    rekeningUittreksel(this);
+            }
+            //Console.WriteLine("Nieuw saldo: {0}", Saldo);
+            //Console.WriteLine($"Bedrag Afgehaald: {0}", bedrag);      
         }
     }
 }

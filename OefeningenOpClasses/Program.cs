@@ -8,6 +8,7 @@ namespace OefeningenOpRekeningen
 {
     class Program
     {
+        delegate void RekeningsMiddel(Rekening middel);
         public static void Main(string[] args)
         {
             //Rekening ik = new Rekening();
@@ -22,15 +23,18 @@ namespace OefeningenOpRekeningen
             ////Console.WriteLine((int) (volgendeTien % 97));
             //ik.Afbeelden();
 
-            //Klant ik = new Klant("Jeunsing", "Lo");
+            Klant ik = new Klant("Jeunsing", "Lo");
 
-            //SpaarRekening spaarRekening = new SpaarRekening("BE40747524091936", 0m, DateTime.Today, ik);
-            //spaarRekening.Storten(1000m);
+            SpaarRekening spaarRekening = new SpaarRekening("BE40747524091936", 0m, DateTime.Today, ik);
+            spaarRekening.Storten(1000m);
             //spaarRekening.Afbeelden();
 
-            //Zichtrekening zichtrekening = new Zichtrekening("BE40645100000163", 0m, DateTime.Today, ik, - 1000m);
-            //zichtrekening.Storten(125m);
+
+
+            Zichtrekening zichtrekening = new Zichtrekening("BE40645100000163", 0m, DateTime.Today, ik, -1000m);
+            zichtrekening.Storten(125m);
             //zichtrekening.Afbeelden();
+            
 
             //SpaarRekening.Intrest = 3m;
             //Rekening[] aRekeningen = new Rekening[2];
@@ -53,7 +57,7 @@ namespace OefeningenOpRekeningen
             //    rekeningType.Afbeelden();
             //    Console.WriteLine();
             //}
-            
+
             //SpaarRekening.Intrest = 3m;
             //ISpaarmiddel[] aSpaarmiddels = new ISpaarmiddel[3];
             //aSpaarmiddels[0] = new Zichtrekening("BE56001900200088", 1000m, DateTime.Today, ik, -3000m);

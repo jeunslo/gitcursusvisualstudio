@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BankBediende.cs" />
     <Compile Include="ISpaarmiddel.cs" />
     <Compile Include="Kasbon.cs" />
     <Compile Include="Klant.cs" />
