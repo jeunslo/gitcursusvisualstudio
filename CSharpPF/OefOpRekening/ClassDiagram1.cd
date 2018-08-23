@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OefeningenOpRekeningen.Rekening">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAABAABAAAEAEAAAAEUCIAAAAAAIBCAAUQAI=</HashCode>
+      <FileName>Rekening.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OefeningenOpRekeningen.Voertuig">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAABAAAAAAAAAAACAgIAAAAAAARIACAAAAANAE=</HashCode>
+      <FileName>Voertuig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OefeningenOpRekeningen.SpaarRekening">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAABAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpaarRekening.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OefeningenOpRekeningen.Zichtrekening">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAgAAABAAAA=</HashCode>
+      <FileName>Zichtrekening.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OefeningenOpRekeningen.Vrachtwagen">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAABAAAAAABAIAE=</HashCode>
+      <FileName>Vrachtwagen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OefeningenOpRekeningen.Klant">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAgAABAAACAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Klant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OefeningenOpRekeningen.Kasbon">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAABIAAAABAAAIEAIAAAAAQAAAAAAQAEg=</HashCode>
+      <FileName>Kasbon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OefeningenOpClasses.BankBediende">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgCAAAAAAAAQAABAAAACAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>BankBediende.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

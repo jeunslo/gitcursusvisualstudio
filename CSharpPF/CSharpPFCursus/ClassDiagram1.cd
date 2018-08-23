@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Firma.Personeel.Werknemer">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Firma.Personeel.Werknemer.WerkRegime" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>WerkRegime.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQQACAAACAAEAhAEgAAJhABAAKAAAIAAQIAAAAgAAIE=</HashCode>
+      <FileName>Werknemer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CSharpPFCursus.LijnenTrekker">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>LijnenTrekker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Firma.Personeel.Arbeider">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAACAAAABAEAABCAABAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Arbeider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Firma.Personeel.Bediende">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAEAIAIgABAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Bediende.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Firma.Personeel.Manager">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAABCEAAAAAABAAgAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Firma.Personeel.Afdeling">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIBAAAEAAAEAAAAAAAAAAAAAAAAAiAAAAA=</HashCode>
+      <FileName>Afdeling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharpPFCursus.ProvincieInfo">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProvincieInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharpPFCursus.Breuk">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAEoBAAJAAAQAAAAJAAAABAAAgAAjA=</HashCode>
+      <FileName>Breuk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharpPFCursus.Overuren">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACCAAAAAAAAAAAAQEAACAAAAAAAAA=</HashCode>
+      <FileName>Overuren.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharpPFCursus.Bier">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAAAAAABAAAEAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

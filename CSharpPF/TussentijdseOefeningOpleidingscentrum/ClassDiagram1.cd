@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Opleiding.Personeel.Personeelslid">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAgAAgCCAAAMCAAAAAAACAQAIAAAAQAAAABAAo=</HashCode>
+      <FileName>Personeelslid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TussentijdseOefeningOpleidingscentrum.ZomerVakantie">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAIBAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAQA=</HashCode>
+      <FileName>Zomervakantie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Opleiding.Personeel.Instructeur">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACACAAAAAAAAAAAAAAAAAAAAAAgAQAQAAAA=</HashCode>
+      <FileName>Instructeur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Opleiding.Infrastructuur.Infrastructuur">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACAACAAAAAAAABAAAAAAAAAAAAAAIAAABAAA=</HashCode>
+      <FileName>Infrastructuur.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
